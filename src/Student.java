@@ -11,5 +11,13 @@ public class Student {
         System.out.println("It is " + isBoarder + " that they are a boarder");
         System.out.println("It is " + isHomework + " that they have completed their homework");
     }
+
+    public Student(int page, int pgrade, String pname, boolean pisBoarder, boolean pisHomework) {
+        age = page;
+        grade = pgrade;
+        name = pname;
+        isBoarder = pisBoarder;
+        isHomework = pisHomework;
+    }
 }
 
